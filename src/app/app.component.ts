@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as mjs from "mathjs";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  
+  myE: number = mjs.e; 
 }
